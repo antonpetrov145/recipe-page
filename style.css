@@ -151,3 +151,12 @@ p {
     color: hsl(30, 10%, 34%);
     font-weight: 400;
 }
+
+@media screen and (min-width: 375px) and (max-width: 1440px) {
+    .outer-body {
+        padding: 0;
+    }
+    .container {
+        width: 100%;
+    }
+  }
